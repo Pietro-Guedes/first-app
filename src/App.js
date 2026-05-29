@@ -1,12 +1,13 @@
 import { StyleSheet, Text, View } from 'react-native';
 
 import {NavigationContainer} from "@react-navigation/native"
-import DrawerNavigator from './navigation/drawer_navigation';
+
+import BottomTabNavigator from './navigation/bottom_tab_navigation'
 
 export default function App(){
   return(
     <NavigationContainer>
-      <DrawerNavigator/>
+      <BottomTabNavigator/>
     </NavigationContainer>
   );
 } 
